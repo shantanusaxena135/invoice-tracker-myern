@@ -1,0 +1,16 @@
+{
+  "name": "invoice-tracker-myern",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && nodemon app_loader.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build": "npm install && cd client && npm install && npm run build && cd .. && cd server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "author": "Shantanu Saxena",
+  "license": "Private"
+}

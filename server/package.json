@@ -1,0 +1,20 @@
+{
+  "name": "invoice-tracker-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app_loader.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.12.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": "",
+  "author": "Shantanu Saxena",
+  "license": "Private"
+}
